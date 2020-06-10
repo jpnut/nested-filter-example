@@ -14,10 +14,10 @@ To install the composer dependencies, run:
 composer install
 ```
 
-To seed the application with some random data, run:
+To run the migrations and seed the application with some random data, run:
 
 ```
-php artisan db:seed
+php artisan migrate --seed
 ```
 
 To build the front end assets, run:
