@@ -1,0 +1,10 @@
+import { request } from './client';
+
+export type ValidatedResponse<T> = ValidationErrorResponse | T;
+
+export interface ValidationErrorResponse {
+  errors: Record<string, string[]>;
+  message: string;
+}
+
+{{ Schema }}

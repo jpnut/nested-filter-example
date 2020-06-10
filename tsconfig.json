@@ -1,0 +1,29 @@
+{
+    "compilerOptions": {
+        "allowSyntheticDefaultImports": true,
+        "esModuleInterop": true,
+        "module": "commonjs",
+        "declaration": true,
+        "removeComments": true,
+        "emitDecoratorMetadata": true,
+        "experimentalDecorators": true,
+        "target": "es2017",
+        "sourceMap": true,
+        "baseUrl": "./resources/js",
+        "paths": {
+            "@api/*": ["api/*"],
+            "@components/*": ["components/*"],
+            "@hooks/*": ["hooks/*"],
+            "@modules/*": ["modules/*"],
+            "@support/*": ["support/*"],
+        },
+        "incremental": true,
+        "jsx": "react",
+        "lib": ["es6", "dom"],
+        "noImplicitAny": true,
+        "noImplicitThis": true,
+        "strictNullChecks": true,
+        "strict": true,
+    },
+    "exclude": ["node_modules", "public"]
+}
